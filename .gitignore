@@ -1,0 +1,18 @@
+# Keep secrets, local caches and key material out of Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+jenkins_slave_rsa*
+*.p12
+*.jks
+secrets/
+credentials.xml
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
